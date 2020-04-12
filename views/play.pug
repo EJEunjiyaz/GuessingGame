@@ -2,4 +2,19 @@ extends layout
 
 block content
     h2= data.word_trash.join(' ')
-    h3 Guess the character
+    p Guess the character
+    form(action='./play' method='post')
+        input(type='radio' id='A' name='alphabet' value='A')
+        label(for='A') A
+        br
+        input(type='radio' id='B' name='alphabet' value='B')
+        label(for='B') B
+        br
+        input(type='radio' id='C' name='alphabet' value='C')
+        label(for='C') C
+        br
+        input(type='radio' id='D' name='alphabet' value='D')
+        label(for='D') D
+        br
+        br
+        input(type='submit', value='Submit')

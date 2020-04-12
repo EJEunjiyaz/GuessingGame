@@ -82,9 +82,12 @@ router.get('/play', (req, res) => {
   Word.findOne().sort({_id: -1}).limit(1).exec((err, data) => {
     res.render('play', {data})
   })
-  // Word.findOne(, (err, docs) => {
-  //   res.render('play', {docs})
-  // })
+})
+
+router.post('/play', (req, res) => {
+  const obj = req.body.alphabet
+  console.log(obj)
+  console.log('ไอสัส')
 })
 
 module.exports = router;
