@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h2 Please enter the word that you want to guess
+    form(action='./save' method='post')
+        input(type='text' name='full_word' placeholder='Can contain only A B C D')
+        input(type='submit', value='Submit')
+    h4 Wrong type. The word must be include only "A" "B" "C" "D" (Capital letters).

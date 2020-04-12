@@ -50,8 +50,14 @@ router.get('/add', (req, res, next) => {
 router.post('/save', (req, res) => {
   const word = []
   const obj = req.body.full_word
+  if (!/^[A-D]+$/.test(obj)) {
+    res.render('add_wrong')
+    throw 'Wrong Input'
+  }
+
   // create array of alphabet from word entered
   for (const alphabet of obj) {
+    // check valid char
     word.push(alphabet)
   }
   const num = word.length
