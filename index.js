@@ -29,10 +29,12 @@ const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
   console.log("[success] task 1 : listening on port " + port);
+  console.log(`Server start at http://localhost:${port}/`)
 });
 
 app.get("/", (req, res) => {
-  res.status(200).send("หน้าแรกของ api express");
+  // res.status(200).send("หน้าแรกของ api express");
+  res.redirect('/game/add')
 });
 
 // path สำหรับ MongoDB ของเรา
