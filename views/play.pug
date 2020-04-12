@@ -1,7 +1,9 @@
 extends layout
 
 block content
-    h2= data.word_trash.join(' ')
+    h2= data.word_trash.join(' ') + " _".repeat(data.remaining)
+    p= 'Wrong answer: ' + data.wrong_count
+    br
     p Guess the character
     form(action='./play' method='post')
         input(type='radio' id='A' name='alphabet' value='A')

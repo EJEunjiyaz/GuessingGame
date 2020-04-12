@@ -10,39 +10,6 @@ router.get("/", (req, res) => {
   });
 });
 
-// // GET 1
-// router.get("/:_id", (req, res) => {
-//   Word.findById(req.params._id).exec((err, data) => {
-//     if (err) return res.status(400).send(err);
-//     res.status(200).send(data);
-//   });
-// });
-
-// // POST (create new data)
-// router.post("/", (req, res) => {
-//   const obj = new Word(req.body);
-//   obj.save((err, data) => {
-//     if (err) return res.status(400).send(err);
-//     res.status(200).send("เพิ่มข้อมูลเรียบร้อย");
-//   });
-// });
-//
-// // PUT (update current data)
-// router.put("/:_id", (req, res) => {
-//   Word.findByIdAndUpdate(req.params._id, req.body, (err, data) => {
-//     if (err) return res.status(400).send(err);
-//     res.status(200).send("อัพเดทข้อมูลเรียบร้อย");
-//   });
-// });
-//
-// // DELETE (delete 1 data)
-// router.delete("/:_id", (req, res) => {
-//   Word.findByIdAndDelete(req.params._id, (err, data) => {
-//     if (err) return res.status(400).send(err);
-//     res.status(200).send("ลบข้อมูลเรียบร้อย");
-//   });
-// });
-
 router.get('/add', (req, res) => {
   res.render('add')
 })
@@ -63,13 +30,7 @@ router.post('/save', (req, res) => {
   const num = word.length
   req.body.full_word = word
   req.body.remaining = num
-
-  const word2 = []
-  // create array * of word trash
-  for (let i = 0; i < num; i++) {
-    word2.push('_')
-  }
-  req.body.word_trash = word2
+  req.body.wrong_count = 0
 
   const obj2 = new Word(req.body)
   // push array to database
@@ -85,9 +46,34 @@ router.get('/play', (req, res) => {
 })
 
 router.post('/play', (req, res) => {
+  // obj คือ A หรือ B หรือ C หรือ D ที่ user ทาย
   const obj = req.body.alphabet
-  console.log(obj)
-  console.log('ไอสัส')
+
+  Word.findOne().sort({_id: -1}).limit(1).exec((err, data) => {
+    const first_alphabet = data.full_word[0]
+    // กรณีทายผิด
+    if (first_alphabet !== obj) {
+      data.wrong_count += 1
+      data.save()
+      console.log('Update finished, incorrect answer.')
+      res.redirect('./play')
+    } else {    // กรณีทายถูก
+      data.word_trash.push(first_alphabet)
+      data.full_word.shift()
+      data.remaining -= 1
+      data.save()
+      console.log('Update finished, correct answer.')
+      if (data.remaining === 0) {
+        res.redirect('./score')
+      } else res.redirect('./play')
+    }
+  })
+})
+
+router.get('/score', (req, res) => {
+  Word.findOne().sort({_id: -1}).limit(1).exec((err, data) => {
+    res.render('score', {data})
+  })
 })
 
 module.exports = router;

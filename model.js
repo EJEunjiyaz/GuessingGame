@@ -11,11 +11,15 @@ const gameSchema = mongoose.Schema(
     },
     word_trash: {
       type: Array
+    },
+    wrong_count: {
+      type: Number
     }
   },
   {
     // กำหนด collection ของ MongoDB หรือจะไม่กำหนดก็ได้
-    collection: "word"
+    collection: "word",
+    versionKey: false
   }
 );
 

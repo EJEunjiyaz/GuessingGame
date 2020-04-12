@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h2= data.word_trash.join(' ') + " _".repeat(data.remaining)
+    h2= 'Wrong answer: ' + data.wrong_count
+
+    form(action='./add' method='get')
+        input(type='submit', value='Click here to play again')
