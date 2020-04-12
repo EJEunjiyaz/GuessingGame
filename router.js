@@ -43,7 +43,7 @@ router.delete("/:_id", (req, res) => {
   });
 });
 
-router.get('/add', (req, res, next) => {
+router.get('/add', (req, res) => {
   res.render('add')
 })
 
@@ -74,8 +74,17 @@ router.post('/save', (req, res) => {
   const obj2 = new Word(req.body)
   // push array to database
   obj2.save().then(item => {
-    res.render('play')
+    res.redirect('./play')
   })
+})
+
+router.get('/play', (req, res) => {
+  Word.findOne().sort({_id: -1}).limit(1).exec((err, data) => {
+    res.render('play', {data})
+  })
+  // Word.findOne(, (err, docs) => {
+  //   res.render('play', {docs})
+  // })
 })
 
 module.exports = router;
