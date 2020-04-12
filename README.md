@@ -13,4 +13,5 @@ You can click on the link provide in the console to play the game.
 ## Creator
 Vichyawat Nakarugsa\
 Student ID: 6110545635\
-Software and Knowledge Engineering, Kasetsart University
+Software and Knowledge Engineering\
+Kasetsart University
