@@ -108,7 +108,7 @@
       <workItem from="1586349439170" duration="1880000" />
       <workItem from="1586353631623" duration="2387000" />
       <workItem from="1586425442519" duration="1607000" />
-      <workItem from="1586427122957" duration="75563000" />
+      <workItem from="1586427122957" duration="75869000" />
     </task>
     <task id="LOCAL-00001" summary="Finish add word page">
       <created>1586651371830</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586710714084</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="remove">
+      <created>1586711519088</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586711519088</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +215,8 @@
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Change default file running" />
     <MESSAGE value="Finish frontend and backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish frontend and backend" />
+    <MESSAGE value="remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1327" y="355" key="#File_Watchers" timestamp="1586653341035">
@@ -231,10 +239,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586684986119" />
-    <state x="844" y="70" width="964" height="888" key="CommitChangelistDialog2" timestamp="1586710713231">
+    <state x="844" y="70" width="964" height="888" key="CommitChangelistDialog2" timestamp="1586711518310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="844" y="70" width="964" height="888" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586710713231" />
+    <state x="844" y="70" width="964" height="888" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586711518310" />
     <state x="1107" y="301" key="EditFileWatcherDialog" timestamp="1586427334526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,10 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="108" y="195" width="998" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586354151242" />
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586710995237">
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586711612805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586710995237" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586711612805" />
     <state x="1248" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586685491839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
