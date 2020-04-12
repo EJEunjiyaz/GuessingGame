@@ -18,30 +18,30 @@ router.get("/", (req, res) => {
 //   });
 // });
 
-// POST (create new data)
-router.post("/", (req, res) => {
-  const obj = new Word(req.body);
-  obj.save((err, data) => {
-    if (err) return res.status(400).send(err);
-    res.status(200).send("เพิ่มข้อมูลเรียบร้อย");
-  });
-});
-
-// PUT (update current data)
-router.put("/:_id", (req, res) => {
-  Word.findByIdAndUpdate(req.params._id, req.body, (err, data) => {
-    if (err) return res.status(400).send(err);
-    res.status(200).send("อัพเดทข้อมูลเรียบร้อย");
-  });
-});
-
-// DELETE (delete 1 data)
-router.delete("/:_id", (req, res) => {
-  Word.findByIdAndDelete(req.params._id, (err, data) => {
-    if (err) return res.status(400).send(err);
-    res.status(200).send("ลบข้อมูลเรียบร้อย");
-  });
-});
+// // POST (create new data)
+// router.post("/", (req, res) => {
+//   const obj = new Word(req.body);
+//   obj.save((err, data) => {
+//     if (err) return res.status(400).send(err);
+//     res.status(200).send("เพิ่มข้อมูลเรียบร้อย");
+//   });
+// });
+//
+// // PUT (update current data)
+// router.put("/:_id", (req, res) => {
+//   Word.findByIdAndUpdate(req.params._id, req.body, (err, data) => {
+//     if (err) return res.status(400).send(err);
+//     res.status(200).send("อัพเดทข้อมูลเรียบร้อย");
+//   });
+// });
+//
+// // DELETE (delete 1 data)
+// router.delete("/:_id", (req, res) => {
+//   Word.findByIdAndDelete(req.params._id, (err, data) => {
+//     if (err) return res.status(400).send(err);
+//     res.status(200).send("ลบข้อมูลเรียบร้อย");
+//   });
+// });
 
 router.get('/add', (req, res) => {
   res.render('add')
