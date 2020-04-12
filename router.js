@@ -61,13 +61,20 @@ router.post('/save', (req, res) => {
     word.push(alphabet)
   }
   const num = word.length
-
   req.body.full_word = word
   req.body.remaining = num
+
+  const word2 = []
+  // create array * of word trash
+  for (let i = 0; i < num; i++) {
+    word2.push('_')
+  }
+  req.body.word_trash = word2
+
   const obj2 = new Word(req.body)
   // push array to database
   obj2.save().then(item => {
-    res.render('add')
+    res.render('play')
   })
 })
 

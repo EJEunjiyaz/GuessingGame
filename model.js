@@ -8,6 +8,9 @@ const gameSchema = mongoose.Schema(
     },
     remaining: {
       type: Number
+    },
+    word_trash: {
+      type: Array
     }
   },
   {
