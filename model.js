@@ -5,6 +5,9 @@ const gameSchema = mongoose.Schema(
     // กำหนด ชื่อและชนิดของ document เรา
     full_word: {
       type: Array
+    },
+    remaining: {
+      type: Number
     }
   },
   {

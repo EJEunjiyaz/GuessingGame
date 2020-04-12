@@ -54,8 +54,10 @@ router.post('/save', (req, res) => {
   for (const alphabet of obj) {
     word.push(alphabet)
   }
+  const num = word.length
 
   req.body.full_word = word
+  req.body.remaining = num
   const obj2 = new Word(req.body)
   // push array to database
   obj2.save().then(item => {
