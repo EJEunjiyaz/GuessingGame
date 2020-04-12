@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1dac0a5-37e2-4cfb-8f48-941d9ac56cc7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Pug File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="edit" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/EJEunjiyaz/GuessingGame.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a4cjYGqCeaeS0Haf5bxSjiUqno" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guessinggame" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\princ\OneDrive\Database Systems for Software and Knowledge Engineers\Week 11\app\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.server.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1dac0a5-37e2-4cfb-8f48-941d9ac56cc7" name="Default Changelist" comment="" />
+      <created>1585998441585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585998441585</updated>
+      <workItem from="1585998444660" duration="64000" />
+      <workItem from="1585998726249" duration="1562000" />
+      <workItem from="1586191045557" duration="1320000" />
+      <workItem from="1586275183755" duration="2133000" />
+      <workItem from="1586282476340" duration="2864000" />
+      <workItem from="1586349439170" duration="1880000" />
+      <workItem from="1586353631623" duration="2387000" />
+      <workItem from="1586425442519" duration="1607000" />
+      <workItem from="1586427122957" duration="75563000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finish add word page">
+      <created>1586651371830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586651371830</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update database schema">
+      <created>1586652818529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586652818529</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Catch error and throw wrong input">
+      <created>1586654533468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586654533468</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update database schema">
+      <created>1586656172790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586656172790</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Query database to play page">
+      <created>1586659991156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586659991157</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Frontend play page">
+      <created>1586684185867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586684185867</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Comment out unnecessary routes">
+      <created>1586684372062</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586684372062</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add .gitignore">
+      <created>1586684821109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586684821109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Change default file running">
+      <created>1586685075160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586685075160</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finish frontend and backend">
+      <created>1586710714084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586710714084</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Finish add word page" />
+    <MESSAGE value="Catch error and throw wrong input" />
+    <MESSAGE value="Update database schema" />
+    <MESSAGE value="Query database to play page" />
+    <MESSAGE value="Frontend play page" />
+    <MESSAGE value="Comment out unnecessary routes" />
+    <MESSAGE value="Add .gitignore" />
+    <MESSAGE value="Change default file running" />
+    <MESSAGE value="Finish frontend and backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish frontend and backend" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1327" y="355" key="#File_Watchers" timestamp="1586653341035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1327" y="355" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1586653341035" />
+    <state x="1327" y="360" key="#Notifications" timestamp="1586711314533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1327" y="360" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1586711314533" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585999404659">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585999404659" />
+    <state x="1120" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586353488430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1120" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586353488430" />
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586684986119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586684986119" />
+    <state x="844" y="70" width="964" height="888" key="CommitChangelistDialog2" timestamp="1586710713231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="844" y="70" width="964" height="888" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586710713231" />
+    <state x="1107" y="301" key="EditFileWatcherDialog" timestamp="1586427334526">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1107" y="301" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586427334526" />
+    <state x="1219" y="265" key="FileChooserDialogImpl" timestamp="1586354223882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1219" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586354223882" />
+    <state x="1316" y="425" key="Github.ShareDialog" timestamp="1586651474684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1316" y="425" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586651474684" />
+    <state width="936" height="258" key="GridCell.Tab.0.bottom" timestamp="1586711150530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586711150530" />
+    <state width="936" height="258" key="GridCell.Tab.0.center" timestamp="1586711150530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586711150530" />
+    <state width="936" height="258" key="GridCell.Tab.0.left" timestamp="1586711150530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586711150530" />
+    <state width="936" height="258" key="GridCell.Tab.0.right" timestamp="1586711150530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586711150530" />
+    <state x="108" y="195" width="998" height="711" key="SettingsEditor" timestamp="1586354151242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="108" y="195" width="998" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586354151242" />
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586710995237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586710995237" />
+    <state x="1248" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586685491839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1248" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586685491839" />
+  </component>
+</project>
